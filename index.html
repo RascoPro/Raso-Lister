@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rasco lister</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="icons/icomoon-v1.0/style.css" />
+    <script
+      defer
+      src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js"
+      integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" type="image/jpg" href="icons/svgexport-10.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="arrwo">
+      <button class="btn-arrow">
+        <img src="icons/angle-double-up.svg" class="icon arrwoi" />
+      </button>
+    </div>
+
+    <header>
+      <img class="logo" src="icons/svgexport-10.svg" alt="" srcset="" />
+      <!-- <nav>
+        <ul class="nave-ul">
+          <li>
+            <a href="#"> <i class="fad fa-home-lg-alt"></i> Home</a>
+          </li>
+          <li>
+            <a href="#"> <i class="fad fa-users-cog"></i> About</a>
+          </li>
+          <li>
+            <a href="#"> <i class="fas fa-smile-plus"></i> Flollow</a>
+          </li>
+        </ul>
+      </nav> -->
+      <button class="buton-black-whight"><i class="fas fa-adjust"></i></button>
+    </header>
+    <img class="svg-logo" src="icons/svgexport-10.svg" alt="" srcset="" />
+    <div class="right-listtes">
+      <input
+        type="text"
+        id="list"
+        class="list-contnta"
+        placeholder="Type Your Task Here"
+      />
+      <button class="updateJs">
+        <img src="icons/svgexport-11.svg" class="uplode" />
+      </button>
+    </div>
+    <div class="Parent-tASKES">
+      <div class="tasck none">
+        <span class="icon-star gold icon"></span>
+        <p>Task 1</p>
+        <div class="trash-love">
+          <span class="icon-trash icon"></span>
+          <span class="icon-heart icon"></span>
+        </div>
+      </div>
+    </div>
+    <div class="slay">
+      <p>🌹 صلي علي سيدنا محمد 🌹</p>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".right-listtes"), {
+        max: 2,
+        speed: 4000,
+        glare: true,
+        "max-glare": 0.2,
+      });
+    </script>
+    <script>
+      VanillaTilt.init(document.querySelector(".tasck"), {
+        max: 2,
+        speed: 3000,
+        glare: true,
+        "max-glare": 1,
+      });
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
